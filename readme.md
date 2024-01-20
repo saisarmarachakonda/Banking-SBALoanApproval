@@ -72,7 +72,7 @@ At this stage, we will conduct data cleaning and processing. We will also normal
 8.  **BalanceGross**: Drop this column, because it only contains a single value (Variance=0).
 9.  **ChgOffPrinGr**: We will drop this column since it will leak information to the algorithm. Every time it has a value, the MIS\_Status column is always “CHGOFF”.
 10.  **SBA\_Appv, ApprovalFY, GrAppv**: We will drop any columns that are related to approval information since they are not relevant features.
-11.  For more details about data cleansing and preprocessing, you can visit this link: [Cleansing and Preprocessing](https://www.kaggle.com/code/ridhoaryo/sba-loan-approval-model?scriptVersionId=143598431&cellId=12).
+11.  For more details about data cleansing and preprocessing, you can visit this link: [Cleansing and Preprocessing](https://www.kaggle.com/code/saisarmarachakonda/sba-loan-approval-model).
 
 Exploratory Data Analysis — Categorical Features
 ================================================
@@ -124,7 +124,7 @@ Exploratory Data Analysis — Numerical Features
 
 There is **no numerical column that has a strong relationship** with ChargeOff **except for the Number of Employees**. In the boxplot, it can be observed that companies with a **larger number of employees tend to be in the “Paid in Full” (PIF)** category rather than “Charge-Off.”
 
-To get more details about the EDA part, you can visit this [link](https://www.kaggle.com/code/ridhoaryo/sba-loan-approval-model?scriptVersionId=143598431&cellId=91).
+To get more details about the EDA part, you can visit this [link](https://www.kaggle.com/code/saisarmarachakonda/sba-loan-approval-model).
 
 Machine Learning Modelling
 ==========================
